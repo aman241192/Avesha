@@ -1,0 +1,32 @@
+.max-container {
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+}
+.common > h2 {
+  font-family: TTHoves-ExtraBold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: #577db8;
+}
+ 
+.flex{
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+}
+.flexblock1{
+    max-width: 105px;
+    /* border: 1px solid red; */
+}
+.flexblock2{
+    width: calc(100% - 105px);
+    /* border: 1px solid red; */
+}
+.flexblock1 > .thead > h5{
+    padding: 15px 19px;
+    max-width: 104px;
+    width: 100%;
+ }
